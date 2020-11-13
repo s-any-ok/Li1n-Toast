@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Li1n Toast</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" href="assets/check.svg" />
+  </head>
+  <body>
+    <div class="container"></div>
+    <script src="js/toast.js"></script>
+    <script>
+      let toast = new Toast({
+        title: "Hi, from Toast",
+        content: "Good job",
+        variant: "danger",
+        position: "bottom-right",
+        rootElement: ".container",
+        autoHideDuration: 3000,
+        closeOnClick: true,
+      });
+      toast.showToast();
+      //toast.showToast();
+    </script>
+  </body>
+</html>
