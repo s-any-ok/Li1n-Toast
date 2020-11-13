@@ -32,3 +32,6 @@ toast.showToast();
 The default CSS for the toast message.
 - https://github.com/s-any-ok/Li1n-Toast/blob/master/css/main.css
 - https://github.com/s-any-ok/Li1n-Toast/blob/master/css/toast.css
+
+### Demo
+🔗 https://s-any-ok.github.io/Li1n-Toast/index.html
